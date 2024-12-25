@@ -1,13 +1,13 @@
-import React , {useState} from 'react';
+import React  from 'react';
 import { Text, View, Image, Button } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import styles from './Style';
-import {useNavigation} from '@react-navigation/native'
+
 
 
 
 export function Home() {
-  const navigation = useNavigation();
+ 
   
   return (
     <View style={styles.container}>
